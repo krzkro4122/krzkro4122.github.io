@@ -1,0 +1,23 @@
+# File: .github/workflows/setup-node/action.yml
+name: build-and-upload
+description: "Build next js project ⚙️ - Upload ./out as artifact ⚡"
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Pages ⚙️
+      uses: actions/configure-pages@v4
+      with:
+        static_site_generator: next
+
+    - name: Build with Next.js 🏗️
+      shell: bash
+      run: npm run build
+
+    - name: Show stuff
+      shell: bash
+      run: ls -lah
+
+    - name: Upload artifact 📡
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: out
