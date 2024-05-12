@@ -1,6 +1,6 @@
 import Image from "next/image";
-import githubLogo from "@/assets/github.png";
-import linkedinLogo from "@/assets/linkedin.png";
+import githubLogo from "@/public/assets/github.png";
+import linkedinLogo from "@/public/assets/linkedin.png";
 import Link from "next/link";
 
 export const Socials = () => {
