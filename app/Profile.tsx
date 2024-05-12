@@ -1,4 +1,4 @@
-import profilePic from "@/assets/profile_pic.png";
+import profilePic from "@/public/assets/profile_pic.png";
 import Image from "next/image";
 
 export const Profile = () => {
