@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "build_fix": "next build && bash fix_export_ssg.sh",
     "lint": "next lint"
   },
   "dependencies": {
