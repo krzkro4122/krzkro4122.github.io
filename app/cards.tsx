@@ -1,13 +1,13 @@
-import willbertLogo from "@/assets/willbert-logo.png"
-import f5Logo from "@/assets/f5-logo-rgb.png"
-import motorolaLogo from "@/assets/motorola-logo.png"
-import ujLogo from "@/assets/uj-logo.png"
-import aghLogo from "@/assets/agh-logo.png"
-import goofyLogo from "@/assets/goofy-slider-logo.png"
-import generatorLogo from "@/assets/ai-image-generator-logo.png"
-import tictactoeLogo from "@/assets/tic-tac-toe-logo.png"
-import cursumLogo from "@/assets/cursum-logo.png"
-import chatterLogo from "@/assets/chatter-logo.png"
+import willbertLogo from "@/public/assets/willbert-logo.png"
+import f5Logo from "@/public/assets/f5-logo-rgb.png"
+import motorolaLogo from "@/public/assets/motorola-logo.png"
+import ujLogo from "@/public/assets/uj-logo.png"
+import aghLogo from "@/public/assets/agh-logo.png"
+import goofyLogo from "@/public/assets/goofy-slider-logo.png"
+import generatorLogo from "@/public/assets/ai-image-generator-logo.png"
+import tictactoeLogo from "@/public/assets/tic-tac-toe-logo.png"
+import cursumLogo from "@/public/assets/cursum-logo.png"
+import chatterLogo from "@/public/assets/chatter-logo.png"
 
 import { BookMarked, CircleHelp, EarthLock, GraduationCap, Grid3X3, ImagePlus, MessagesSquare, PlugZap, RadioTower, SlidersHorizontal } from "lucide-react";
 import { StaticImageData } from "next/image";
