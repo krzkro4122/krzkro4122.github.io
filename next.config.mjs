@@ -14,6 +14,8 @@ const nextConfig = {
    */
   basePath: "/nextjs-github-pages",
 
+  assetPrefix: "/nextjs-github-pages",
+
   /**
    * Disable server-based image optimization. Next.js does not support
    * dynamic features with static exports.
