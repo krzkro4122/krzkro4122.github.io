@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { prefix } from "./utils";
 
 export const Socials = () => {
   return (
     <div className="flex justify-evenly p-2">
       <Link href="https://github.com/krzkro4122" target="_blank">
         <Image
-          src="/krzkro4122githubio/github.png"
+          src="/github.png"
           alt="Github profile"
           className="max-h-14 max-w-min hover:scale-105 active:opacity-80"
         />
