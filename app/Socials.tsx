@@ -7,7 +7,7 @@ export const Socials = () => {
     <div className="flex justify-evenly p-2">
       <Link href="https://github.com/krzkro4122" target="_blank">
         <Image
-          src={`${prefix}/github.png`}
+          src="/krzkro4122githubio/github.png"
           alt="Github profile"
           className="max-h-14 max-w-min hover:scale-105 active:opacity-80"
         />
