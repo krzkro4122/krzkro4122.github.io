@@ -14,7 +14,7 @@ const nextConfig = {
    */
   basePath: "/nextjs-github-pages",
 
-  assetPrefix: "/nextjs-github-pages",
+  assetPrefix: "/",
 
   /**
    * Disable server-based image optimization. Next.js does not support
