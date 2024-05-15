@@ -1,6 +1,6 @@
 "use client";
 
-import profilePicture from "@/public/profile_pic.png";
+// import profilePicture from "@/public/profile_pic.png";
 import Image from "next/image";
 import { imagePrefix } from "./cards";
 import Link from "next/link";
@@ -13,7 +13,8 @@ export const Profile = () => {
       target="_blank"
     >
       <Image
-        src={profilePicture || `${imagePrefix}/profile_pic.png`}
+        src={`${imagePrefix}/profile_pic.png`}
+        // src={profilePicture || `${imagePrefix}/profile_pic.png`}
         className="p-1 z-10"
         alt="My profile photo."
       />

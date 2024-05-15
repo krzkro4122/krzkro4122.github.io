@@ -1,5 +1,5 @@
-import githubLogo from "@/public/github.png";
-import linkedinLogo from "@/public/linkedin.png";
+// import githubLogo from "@/public/github.png";
+// import linkedinLogo from "@/public/linkedin.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -14,7 +14,8 @@ export const Socials = () => {
         target="_blank"
       >
         <Image
-          src={githubLogo || `${imagePrefix}/github.png`}
+          src={`${imagePrefix}/github.png`}
+          // src={githubLogo || `${imagePrefix}/github.png`}
           alt="Github profile"
           className="p-2 hover:scale-105 active:opacity-80"
         />
@@ -25,7 +26,8 @@ export const Socials = () => {
         target="_blank"
       >
         <Image
-          src={linkedinLogo || `${imagePrefix}/linkedin.png`}
+          src={`${imagePrefix}/linkedin.png`}
+          // src={linkedinLogo || `${imagePrefix}/linkedin.png`}
           alt="LinkedIn profile"
           className="p-2 hover:scale-105 active:opacity-80"
         />
