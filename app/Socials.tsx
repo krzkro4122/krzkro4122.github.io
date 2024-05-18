@@ -12,8 +12,9 @@ export const Socials = () => {
         className="shadow-lg border-2 flex items-center justify-center border-black max-h-[7dvh] max-w-[7dvh] lg:max-h-[6dvh] lg:max-w-[6dvh] rounded-md hover:scale-105 hover:bg-gray-100 active:bg-gray-200"
         href={`${publicPrefix}/CV-18-05-2024.pdf`}
         locale={false}
+        target="_blank"
+        download={true}
         rel="noopener noreferrer"
-        download
       >
         <Image
           src={`${publicPrefix}/cv.png`}
