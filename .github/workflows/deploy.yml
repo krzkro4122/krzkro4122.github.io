@@ -77,7 +77,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} npm run build
 
       - name: Copy cv to out/
-        run: ${{ steps.detect-package-manager.outputs.runner }} cp public/CV-18-05-2024.pdf out/
+        run: cp public/CV-18-05-2024.pdf out/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
