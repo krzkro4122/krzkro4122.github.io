@@ -14,7 +14,6 @@ export const Socials = () => {
         locale={false}
         target="_blank"
         rel="noopener noreferrer"
-        download
       >
         <Image
           src={`${publicPrefix}/cv.png`}
