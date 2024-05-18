@@ -43,7 +43,7 @@ export const experienceCards: CardProps[] = [
     imageSrc: `${publicPrefix}/willbert-logo.png`,
     // imageSrc: willbertLogo || `${imagePrefix}/willbert-logo.png`,
     text: "E-Mobility",
-    text2: "Backed software developer",
+    text2: "Backend software developer",
     title: "WILLBERT by Euroloop",
   },
   {
