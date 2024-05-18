@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { imagePrefix } from "./cards";
+import { publicPrefix } from "./cards";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href={`${imagePrefix}/icon.svg`} sizes="any" />
+        <link rel="icon" href={`${publicPrefix}/icon.svg`} sizes="any" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

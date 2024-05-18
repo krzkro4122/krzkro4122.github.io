@@ -2,7 +2,7 @@
 
 // import profilePicture from "@/public/profile_pic.png";
 import Image from "next/image";
-import { imagePrefix } from "./cards";
+import { publicPrefix } from "./cards";
 import Link from "next/link";
 
 export const Profile = () => {
@@ -13,7 +13,7 @@ export const Profile = () => {
       target="_blank"
     >
       <Image
-        src={`${imagePrefix}/profile_pic.png`}
+        src={`${publicPrefix}/profile_pic.png`}
         // src={profilePicture || `${imagePrefix}/profile_pic.png`}
         className="p-1 z-10"
         alt="My profile photo."
