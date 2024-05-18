@@ -76,9 +76,6 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} npm run build
 
-      - name: Copy cv to out/
-        run: cp public/CV-18-05-2024.pdf out/
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
