@@ -13,7 +13,7 @@ export const Socials = () => {
         href={`${publicPrefix}/CV-18-05-2024.pdf`}
         locale={false}
         target="_blank"
-        rel="noopener norferrer"
+        rel="noopener noreferrer"
         download
       >
         <Image
