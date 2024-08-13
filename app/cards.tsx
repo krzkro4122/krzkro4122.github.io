@@ -93,7 +93,7 @@ export const educationCards: CardProps[] = [
 
 export const projectCards: CardProps[] = [
   {
-    href: "http://67.207.78.202:5001",
+    href: "http://ec2-18-153-66-134.eu-central-1.compute.amazonaws.com:5001",
     icon: <SlidersHorizontal size={"5dvh"} />,
     imageAlt: "Logo of Goofy Slider",
     imageSrc: `${publicPrefix}/goofy-slider-logo.png`,
@@ -103,7 +103,7 @@ export const projectCards: CardProps[] = [
     title: "Goofy Slider",
   },
   {
-    href: "http://67.207.78.202:5004",
+    href: "http://ec2-18-153-66-134.eu-central-1.compute.amazonaws.com:5004",
     icon: <ImagePlus size={"5dvh"} />,
     imageAlt: "Logo of AI Image Generator",
     imageSrc: `${publicPrefix}/ai-image-generator-logo.png`,
@@ -113,7 +113,7 @@ export const projectCards: CardProps[] = [
     title: "AI Image Generator",
   },
   {
-    href: "http://67.207.78.202:5000",
+    href: "http://ec2-18-153-66-134.eu-central-1.compute.amazonaws.com:5000",
     icon: <Grid3X3 size={"5dvh"} />,
     imageAlt: "Logo of Tic Tac Toe",
     imageSrc: `${publicPrefix}/tic-tac-toe-logo.png`,
@@ -123,7 +123,7 @@ export const projectCards: CardProps[] = [
     title: "Tic Tac Toe",
   },
   {
-    href: "http://67.207.78.202:5173",
+    href: "http://ec2-18-153-66-134.eu-central-1.compute.amazonaws.com:5173",
     icon: <MessagesSquare size={"5dvh"} />,
     imageAlt: "Logo of Chatter",
     imageSrc: `${publicPrefix}/chatter-logo.png`,
@@ -133,7 +133,7 @@ export const projectCards: CardProps[] = [
     title: "Chatter",
   },
   {
-    href: "http://67.207.78.202",
+    href: "http://ec2-18-153-66-134.eu-central-1.compute.amazonaws.com",
     icon: <CircleHelp size={"5dvh"} />,
     imageAlt: "Logo of Cursum",
     imageSrc: `${publicPrefix}/cursum-logo.png`,
@@ -142,4 +142,14 @@ export const projectCards: CardProps[] = [
     text2: "React.js, Nginx",
     title: "Cursum",
   },
+  {
+    href: "http://ec2-18-153-66-134.eu-central-1.compute.amazonaws.com:8000",
+    icon: <CircleHelp size={"5dvh"} />,
+    imageAlt: "Logo of Todo",
+    imageSrc: `${publicPrefix}/todo-logo.png`,
+    // imageSrc: cursumLogo || `${imagePrefix}/cursum-logo.png`,
+    text: "A simple TODO list",
+    text2: "HTMX, FastAPI",
+    title: "TODO",
+ },
 ];
